@@ -4,7 +4,7 @@ Instructions for Recon-NG v4.8.3:
 
 API Keys:
 
-   1.  **bing_api** _(optional $$$)_ - Sign up [here](http://datamarket.azure.com/dataset/bing/search) (I chose the free plan), agree to all the terms until you get to "Thank You", then go [here](https://datamarket.azure.com/account/keys) to view the key. (free account: 5000 transactions per month)
+   1.  **bing_api** - need more data
 
    2. **builtwith_api** - Go [here](https://api.builtwith.com/) and sign up.  Once you enter an email and password, it will show you the API key
 
@@ -30,7 +30,7 @@ API Keys:
 
    13. **google_cse** - Go [here](https://cse.google.com/cse/all) (login if necessary).  Click "Create", enter "www.google.com" with "Sites to search", then click "Create" button.  On the next page, click "Control Panel".  Under "Sites to search", choose "Search the entire web but emphasize included sites" in the dropdown, then click the "Update" button at the bottom.  On the same page, scroll up and click "Search Engine ID" under "Details".  Thats the key to use here!
 
-   14. **hashes_api** - Register [here](https://hashes.org/register_form.php) (or login).  Confirm your account via email link. Login with your new account, then click [here](https://hashes.org/settings.php). Your API key should be listed.
+   14. **hashes_api** - Service has been shut down on testing day.
 
    15. **instagram_api** - Register [here](https://www.instagram.com/accounts/login/?next=%2Fdeveloper%2Fregister%2F) (or login). Once logged in, click [here](http://instagram.com/developer/clients/register/) and create a new application. Add "http://localhost:31337" as the "OAuth redirect_uri". Click "Manage Clients" at the top of the screen and the API key will be available as the "CLIENT_ID" _(Note: Instagram wasn't functioning when I wrote this...it may be different)_
 
